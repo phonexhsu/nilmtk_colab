@@ -1,18 +1,18 @@
-#AIOT DS 期末專題說明
+# AIOT DS 期末專題說明
 
 資料夾內容
 
-- code ：google colab notebook、models
+- code：google colab notebook、models
 
 - slides：期末報告投影片pdf
 
-#Raspiberry Pi資料蒐集平台安裝步驟
+# Raspiberry Pi資料蒐集平台安裝步驟
 
-##製作Raspberry Pi SD卡映像檔
+## 製作Raspberry Pi SD卡映像檔
 推薦使用Raspberry Pi Imager https://www.raspberrypi.com/software/
 基本設定步驟請參考 [【樹莓派 Raspberry Pi】進入系統第一步設定 @ 《Four Leaf Lucky Grass》 :: 痞客邦 ::](https://tw20150525.pixnet.net/blog/post/216751866-%E3%80%90%E6%A8%B9%E8%8E%93%E6%B4%BE-raspberry-pi%E3%80%91%E9%80%B2%E5%85%A5%E7%B3%BB%E7%B5%B1%E7%AC%AC%E4%B8%80%E6%AD%A5%E8%A8%AD%E5%AE%9A)
 
-##安裝node-red
+## 安裝node-red
 在raspberry pi console執行
 
 ```bash
@@ -1715,6 +1715,6 @@ sudo apt install mongodb && sudo systemctl enable mongodb && sudo service mongod
 
 匯入後deploy就完成資料收集平台的部署。
 
-#NILMTK的coding實習
+# NILMTK的coding實習
 
 請參考code/nilmtk_colab.ipynb_
