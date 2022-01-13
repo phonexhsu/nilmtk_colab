@@ -29,7 +29,7 @@ sudo service nodered start
 接下來我們需要安裝mongodb server，安裝把service跑起來
 
 ```bash
-sudo apt install mongodb && sudo systemctl enable mongodb && sudo service mongodb start
+sudo apt install mongodb  && sudo systemctl enable mongodb && sudo service mongodb start
 ```
 
 訪問http:{repasberrypi-ip}:1880就可以進到node-red的flwo editor。然後請安裝 [node-red-contrib-mongodb2 (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-mongodb2) 與 [node-red-contrib-modbus (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-modbus) 還有 https://flows.nodered.org/node/node-red-dashboard 3個packages。如何安裝package請參考 [Node-Red Palette, Importing Nodes - YouTube](https://www.youtube.com/watch?v=Wlwe5Xry5cA)。
