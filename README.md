@@ -32,7 +32,7 @@ sudo service nodered start
 sudo apt install mongodb -y && sudo systemctl enable mongodb && sudo service mongodb start
 ```
 
-訪問http:{repasberrypi-ip}:1880就可以進到node-red的flwo editor。然後請安裝 [node-red-contrib-mongodb2 (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-mongodb2) 與 [node-red-contrib-modbus (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-modbus) 還有 https://flows.nodered.org/node/node-red-dashboard 3個packages。如何安裝package請參考 [Node-Red Palette, Importing Nodes - YouTube](https://www.youtube.com/watch?v=Wlwe5Xry5cA)。
+訪問http://{repasberrypi-ip}:1880就可以進到node-red的flwo editor。然後請安裝 [node-red-contrib-mongodb2 (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-mongodb2) 與 [node-red-contrib-modbus (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-modbus) 還有 https://flows.nodered.org/node/node-red-dashboard 3個packages。如何安裝package請參考 [Node-Red Palette, Importing Nodes - YouTube](https://www.youtube.com/watch?v=Wlwe5Xry5cA)。
 接著請把以下的flow匯入node-red，如何匯入請參考 [Importing and Exporting Flows : Node-RED](https://nodered.org/docs/user-guide/editor/workspace/import-export)
 
 ```json
